@@ -47,5 +47,5 @@
 - name: wait for metal-core to listen on port
   wait_for:
     port: "{{ metal_core_port }}"
-    timeout: 300
+    timeout: 600
     msg: "metal-core did not come up"
